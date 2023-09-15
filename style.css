@@ -191,23 +191,29 @@
 
 #testimoni {
     margin-top: 10vh;
+    margin-bottom: 15vh;
     width: 100%;
     height: 450px;
-    background-color: var(--secondary-color);
     color: white;
 }
 
 #testimoni #carouselExampleIndicators {
     height: 100%;
+    background-color: var(--secondary-color);
 }
 
 #testimoni h3 {
+    color: black;
     font-weight: bolder;
-    text-decoration: underline;
+    margin-bottom: 2vh;
+}
+
+#testimoni .carousel-inner {
+    padding-left: 5vw;;
 }
 
 #testimoni .carousel-left {
-    margin: 2vh 0 2vh 4vw;
+    margin: 6vh 0 2vh 4vw;
 }
 
 #testimoni .carousel-right {

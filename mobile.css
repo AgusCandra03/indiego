@@ -23,6 +23,12 @@
     #navHome {
         z-index: 99;
     }
+
+    #navHome .navbar-collapse {
+        background-color: var(--secondary-color);
+        opacity: 0.8;
+        padding-left: 15px;
+    } 
     
     #navHome img {
         width: 20%;
@@ -197,7 +203,7 @@
     /* testimoni */
 
     #testimoni {
-        margin-top: 10vh;
+        margin-top: 15vh;
         width: 100%;
         height: auto;
         background-color: var(--secondary-color);
@@ -210,7 +216,8 @@
     
     #testimoni h3 {
         font-weight: bolder;
-        text-decoration: underline;
+        margin-top: -7vh;
+        margin-bottom: 2vh;
     }
     
     #testimoni .carousel-left {
@@ -218,7 +225,7 @@
     }
     
     #testimoni .carousel-right {
-        margin: 4vh 1vw 4vh 2vw;
+        margin: 3vh 1vw 4vh 2vw;
     }
     
     #testimoni .carousel-left img {
@@ -251,7 +258,7 @@
     /* Galeri */
 
     #galeri {
-        margin-top: 10vh;
+        margin-top: -5vh;
     }
 
     #galeri h3 {
@@ -306,7 +313,7 @@
    /* Paket */
 
     #paket {
-        margin-top: 5vh;
+        margin-top: 10vh;
     }
 
     #paket .sub-title hr {
